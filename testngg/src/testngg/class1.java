@@ -17,7 +17,6 @@ public class class1 {
 	  @Parameters("browser")
 	 
 	
-	  // Passing Browser parameter from TestNG xml
 	 
 	  public void beforeTest(String browser) {
 	 
@@ -27,7 +26,7 @@ public class class1 {
 	 
 		  driver = new FirefoxDriver();
 	 
-	  // If browser is IE, then do this	  
+	  // If browser is IE, then do this	    dd
 	 
 	  }else if (browser.equalsIgnoreCase("ie")) { 
 	 
